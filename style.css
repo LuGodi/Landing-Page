@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Roboto, sans-serif;
+
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.header-container #logo{
+ font-size:24px;
+ color:#F9FAF8
+}
+.header-container{
+    padding:20px 40px;
+    display:flex;
+    justify-content: space-between;
+}
+ul.header-links{
+    display:flex;
+    list-style-type: none;
+    gap:20px;
+}
+.header-container .header-links, .hero-container-text{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.header-container, .hero-container, footer{
+    background-color: #1f2937;
+}
+
+.hero-container {
+    display:flex;
+    padding:150px 40px;
+    gap:100px;
+    align-items: flex-end;
+
+}
+.hero-container .hero-container-text{
+    flex:1 1 300px;
+    
+
+}
+.hero-container img {
+    width:200px;
+    height:200px;
+    flex:1 1 auto;
+    object-fit: fill;
+    
+}
+.hero-container-text h1{
+    font-size:48px;
+    color:#f9faf8;
+    margin-bottom:20px;
+}
+
+button {
+    padding:10px 30px;
+    border:none;
+    border-radius:5px;
+    color:#e5e7eb;
+    margin-top:20px;
+}
+button, .call-to-action-container {
+    background-color: #3882f6;
+}
+
+.main-content .main-content-header{
+    font-size:36px;
+    font-weight:900;
+    color:#1f2937
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight:900;
+    font-size:18px;
+}
+.quote-container blockquote{
+    font-size:36px;
+    font-weight:100;
+    font-style: italic;
+}
+
+.main-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding:20px;
+ 
+}
+.main-content-header {
+    margin:40px 0;
+}
+.main-content ul {
+    display:flex;
+    list-style-type:none;
+    gap:50px;
+    margin: 20px 0;
+    margin-bottom:80px;
+}
+.main-content img {
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border:5px solid #3882f6;
+    border-radius:15px;
+}
+
+.quote-container {
+    padding:150px 0;
+    align-self:center;
+}
+.quote-container figcaption{
+    text-align: end;
+}
