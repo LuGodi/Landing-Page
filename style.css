@@ -109,7 +109,6 @@ button, .call-to-action-container {
     gap:50px;
     margin: 20px 0;
     margin-bottom:80px;
-    width:1000px;
 }
 .main-content img {
     width:170px;
@@ -130,7 +129,7 @@ button, .call-to-action-container {
    
 }
 .quote-container > * {
-    flex-basis:1000px;
+    flex-basis:800px;
 }
 
 .call-to-action-container {
