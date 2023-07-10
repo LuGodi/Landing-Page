@@ -101,7 +101,7 @@ button, .call-to-action-container {
  
 }
 .main-content-header {
-    margin:40px 0;
+    margin:30px 0;
 }
 .main-content ul {
     display:flex;
@@ -109,10 +109,11 @@ button, .call-to-action-container {
     gap:50px;
     margin: 20px 0;
     margin-bottom:80px;
+    width:800px;
 }
 .main-content img {
-    width:150px;
-    height:150px;
+    width:170px;
+    height:170px;
     object-fit: cover;
     border:5px solid #3882f6;
     border-radius:15px;
@@ -121,7 +122,40 @@ button, .call-to-action-container {
 .quote-container {
     padding:150px 0;
     align-self:center;
+    display:flex;
+    justify-content: center;
 }
 .quote-container figcaption{
     text-align: end;
+   
+}
+.quote-container > * {
+    flex-basis:800px;
+}
+
+.call-to-action-container {
+    display:flex;
+    align-self:center;
+    padding:40px 10px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    justify-content: space-around;
+    margin:80px 40px;
+
+    
+}
+.call-to-action-container > * {
+   
+}
+.call-to-action-container button {
+    margin: 0;
+    border:1px solid #F9FAF8;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0;
+    color:#e5e7eb
 }
